@@ -196,11 +196,11 @@ public struct iPhoneNumberField: UIViewRepresentable {
             uiView.textAlignment = textAlignment
         }
 
-        if isFirstResponder {
-            uiView.becomeFirstResponder()
-        } else {
-            uiView.resignFirstResponder()
-        }
+//        if isFirstResponder {
+//            uiView.becomeFirstResponder()
+//        } else {
+//            uiView.resignFirstResponder()
+//        }
     }
 
     public func makeCoordinator() -> Coordinator {
